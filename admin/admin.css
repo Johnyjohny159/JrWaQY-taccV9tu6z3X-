@@ -390,3 +390,92 @@ textarea { resize: vertical; }
   font-size: 0.85rem;
   margin-bottom: 12px;
 }
+
+/* ─── Sidebar nav (desktop) ──────────────────────────────── */
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+/* ─── Mobile ─────────────────────────────────────────────── */
+@media (max-width: 640px) {
+  /* Login */
+  .login-card { padding: 28px 20px; }
+
+  /* Dashboard: stack vertically */
+  #dashboard { flex-direction: column; }
+
+  /* Sidebar → horizontal top bar */
+  .sidebar {
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 14px;
+    gap: 6px;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .sidebar::-webkit-scrollbar { display: none; }
+  .sidebar-logo {
+    margin-bottom: 0;
+    margin-right: 6px;
+    font-size: 1.3rem;
+    flex-shrink: 0;
+  }
+  .sidebar-nav {
+    flex-direction: row;
+    gap: 4px;
+    flex: 1;
+  }
+  .sidebar-btn { padding: 8px 12px; font-size: 0.82rem; white-space: nowrap; }
+  .sidebar-btn.danger { margin-top: 0; margin-left: auto; flex-shrink: 0; }
+
+  /* Main content */
+  .dashboard-main { padding: 16px 14px; }
+
+  /* Header stacks, button full width */
+  .dash-header { flex-direction: column; gap: 10px; }
+  .dash-header .btn-primary { width: 100%; justify-content: center; }
+
+  /* Toolbar stacks */
+  .dash-toolbar { flex-direction: column; }
+  .dash-toolbar input,
+  .dash-toolbar select { max-width: 100%; }
+
+  /* Table: horizontally scrollable */
+  #items-view,
+  #toppings-view { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .items-table { min-width: 520px; }
+
+  /* Bigger tap targets on table buttons */
+  .btn-edit, .btn-del { padding: 8px 14px; }
+
+  /* Form rows stack */
+  .form-row { grid-template-columns: 1fr; }
+
+  /* Save banner stacks */
+  .save-banner {
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+    margin: auto -14px -16px;
+    padding: 14px 16px;
+    gap: 10px;
+  }
+  .save-banner .btn-primary { width: 100%; }
+
+  /* Modal slides up from bottom */
+  .modal-overlay { align-items: flex-end; padding: 0; }
+  .modal {
+    border-radius: 20px 20px 0 0;
+    max-height: 92vh;
+    padding: 20px 18px;
+  }
+  .modal-sm { max-width: 100%; }
+  .modal-actions { flex-direction: column-reverse; }
+  .modal-actions button { width: 100%; justify-content: center; }
+
+  /* Toast full width */
+  .toast { left: 14px; right: 14px; bottom: 14px; text-align: center; }
+}
