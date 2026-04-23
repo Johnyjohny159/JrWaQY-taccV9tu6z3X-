@@ -443,7 +443,7 @@
     {
       "id": "beer",
       "title": "Beer",
-      "description": "Normal or Craft beer \u2014 Normal \u20ac5 \u00b7 Craft \u20ac6",
+      "description": "Normal or Craft beer — Normal €5 · Craft €6",
       "price": 5.5,
       "image": "images/beer.jpg",
       "category": "Drinks",
