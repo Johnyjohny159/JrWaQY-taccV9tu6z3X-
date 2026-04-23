@@ -297,11 +297,20 @@ ul { list-style: none; }
   width: 100%;
   height: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 8px;
   background: linear-gradient(135deg, var(--green-light) 0%, #d4eddf 100%);
   color: var(--green-mid);
   font-size: 2.2rem;
+}
+.placeholder-text {
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  font-style: italic;
+  color: var(--green-mid);
+  letter-spacing: 0.2px;
 }
 
 .card-body {

@@ -111,7 +111,7 @@ function buildCard(item) {
   img.alt = item.title;
   img.loading = 'lazy';
   img.onerror = () => {
-    imgWrap.innerHTML = `<div class="card-img-placeholder">${CATEGORY_EMOJI[item.category] || '🍴'}</div>`;
+    imgWrap.innerHTML = `<div class="card-img-placeholder">${CATEGORY_EMOJI[item.category] || '🍴'}<span class="placeholder-text">Still in the kitchen.</span></div>`;
   };
   imgWrap.appendChild(img);
   card.appendChild(imgWrap);
