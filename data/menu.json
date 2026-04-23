@@ -9,7 +9,7 @@
       "category": "Wrap",
       "dietary": "Meat",
       "canBeVegan": false,
-      "available": false
+      "available": true
     },
     {
       "id": "shoarma-wrap",
