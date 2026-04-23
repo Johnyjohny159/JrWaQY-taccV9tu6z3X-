@@ -443,10 +443,19 @@ textarea { resize: vertical; }
   .dash-toolbar input,
   .dash-toolbar select { max-width: 100%; }
 
-  /* Table: horizontally scrollable */
-  #items-view,
-  #toppings-view { overflow-x: auto; -webkit-overflow-scrolling: touch; }
-  .items-table { min-width: 520px; }
+  /* Table: hide non-essential columns so it fits without scrolling */
+  /* Items table columns: 1=Image 2=Title 3=Category 4=Dietary 5=Price 6=Available 7=Actions */
+  #items-view .items-table th:nth-child(1),
+  #items-view .items-table td:nth-child(1),
+  #items-view .items-table th:nth-child(3),
+  #items-view .items-table td:nth-child(3),
+  #items-view .items-table th:nth-child(6),
+  #items-view .items-table td:nth-child(6) { display: none; }
+
+  .items-table { width: 100%; }
+  .items-table th,
+  .items-table td { padding: 10px 10px; }
+  .badge-sm { font-size: 0.68rem; padding: 2px 6px; }
 
   /* Bigger tap targets on table buttons */
   .btn-edit, .btn-del { padding: 8px 14px; }
