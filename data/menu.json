@@ -102,7 +102,7 @@
     {
       "id": "chicken-meal",
       "title": "Chicken Meal",
-      "description": "Delicious marinated chicken thigh, veggies & tahini. Includes homemade bread, fries, veggies & hummus",
+      "description": "Delicious marinated chicken thigh. Includes homemade bread, fries, veggies & hummus",
       "price": 20,
       "image": "images/chicken-meal.jpg",
       "category": "Meal",
@@ -113,7 +113,7 @@
     {
       "id": "shoarma-meal",
       "title": "Shoarma Meal",
-      "description": "Appetizing lamb & chicken shoarma, veggies & tahini. Includes homemade bread, fries, veggies & hummus",
+      "description": "Appetizing lamb & chicken shoarma. Includes homemade bread, fries, veggies & hummus",
       "price": 20,
       "image": "images/shoarma-meal.jpg",
       "category": "Meal",
@@ -124,7 +124,7 @@
     {
       "id": "kebab-meal",
       "title": "Kebab Meal",
-      "description": "Traditionally seasoned lamb & beef kebab, veggies & tahini. Includes homemade bread, fries, veggies & hummus",
+      "description": "Traditionally seasoned lamb & beef kebab. Includes homemade bread, fries, veggies & hummus",
       "price": 20,
       "image": "images/kebab-meal.jpg",
       "category": "Meal",
@@ -135,7 +135,7 @@
     {
       "id": "halloumi-meal",
       "title": "Halloumi Meal",
-      "description": "Grilled halloumi cheese paired with hummus, veggies & potatoes. Includes homemade bread, fries, veggies & hummus",
+      "description": "Grilled halloumi cheese. Includes homemade bread, fries, veggies & hummus",
       "price": 20,
       "image": "images/halloumi-meal.jpg",
       "category": "Meal",
@@ -146,7 +146,7 @@
     {
       "id": "falafel-meal",
       "title": "Falafel Meal",
-      "description": "Homemade falafels for the authentic experience, veggies & tahini. Includes homemade bread, fries, veggies & hummus",
+      "description": "Homemade falafels for the authentic experience. Includes homemade bread, fries, veggies & hummus",
       "price": 19,
       "image": "images/falafel-meal.jpg",
       "category": "Meal",
@@ -157,7 +157,7 @@
     {
       "id": "cauliflower-meal",
       "title": "Cauliflower Meal",
-      "description": "Cauliflower paired with hummus, pickles, veggies, potatoes & tahini. Includes homemade bread, fries, veggies & hummus",
+      "description": "Cauliflower meal. Includes homemade bread, fries, veggies & hummus",
       "price": 19,
       "image": "images/cauliflower-meal.jpg",
       "category": "Meal",
@@ -168,7 +168,7 @@
     {
       "id": "sabich-meal",
       "title": "Sabich Meal",
-      "description": "Traditional grilled eggplant matched with hummus, potatoes, egg, veggies & tahini. Includes homemade bread, fries, veggies & hummus",
+      "description": "Traditional grilled eggplant matched with egg. Includes homemade bread, fries, veggies & hummus",
       "price": 19,
       "image": "images/sabich-meal.jpg",
       "category": "Meal",
@@ -179,7 +179,7 @@
     {
       "id": "grilled-veggies-meal",
       "title": "Grilled Veggies Meal",
-      "description": "Freshly grilled eggplant, paprika & zucchini paired with hummus, feta, veggies & tahini. Includes homemade bread, fries, veggies & hummus",
+      "description": "Freshly grilled eggplant, paprika & zucchini paired with feta. Includes homemade bread, fries, veggies & hummus",
       "price": 19,
       "image": "images/grilled-veggies-meal.jpg",
       "category": "Meal",
@@ -190,7 +190,7 @@
     {
       "id": "feta-veggies-meal",
       "title": "Feta Veggies Meal",
-      "description": "Homemade labneh, feta cheese, egg & veggies. Includes homemade bread, fries, veggies & hummus",
+      "description": "Homemade labneh, feta cheese, eggs. Includes homemade bread, fries, veggies & hummus",
       "price": 19,
       "image": "images/feta-veggies-meal.jpg",
       "category": "Meal",
